@@ -1,0 +1,29 @@
+{
+  "name": "hcx-cypress-test",
+  "version": "1.0.0",
+  "description": "Automação de testes Web e API com Cypress + Cucumber (BDD)",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "bdd",
+    "automacao"
+  ],
+  "license": "MIT",
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/step_definitions/**/*.js"
+  },
+  "overrides": {
+    "tsx": "4.19.2"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "cypress": "^15.17.0",
+    "esbuild": "^0.25.12"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "valido": {
+    "email": "teste2024@teste.com.br",
+    "senha": "teste"
+  },
+  "invalido": {
+    "email": "teste2021@teste.com.br",
+    "senha": "teste"
+  }
+}
